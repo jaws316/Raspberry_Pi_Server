@@ -1,0 +1,23 @@
+
+#my bin
+
+if [ -d ~/.bin ]
+then
+  PATH=/home/$USER/.bin:$PATH
+fi
+
+#my aliases
+
+alias ta="tmux attach"
+alias t="tmux"
+alias e="sudo nano "
+alias i="sudo apt install "
+alias p="sudo apt purge "
+alias r="sudo apt remove "
+alias xf="chmod u+x "
+alias wtr="curl wttr.in"
+alias st="speedtest"
+alias nf="neofetch"
+alias df="df -hTx tmpfs -x devtmpfs -x squashfs"
+alias w="which"
+alias lu="cat .logs/Update_log"
