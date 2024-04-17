@@ -21,3 +21,4 @@ alias nf="neofetch"
 alias df="df -hTx tmpfs -x devtmpfs -x squashfs"
 alias w="which"
 alias lu="cat .logs/Update_log"
+nf
