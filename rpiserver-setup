@@ -12,8 +12,8 @@ wget https://raw.githubusercontent.com/jaws316/Bash_Scripts/main/wip
 wget https://raw.githubusercontent.com/jaws316/Bash_Scripts/main/update
 wget https://raw.githubusercontent.com/jaws316/Bash_Scripts/main/check-my-net
 wget https://raw.githubusercontent.com/jaws316/Bash_Scripts/main/HTTPServer
-wget https://raw.githubusercontent.com/jaws316/Bash_Scripts/main/
-wget https://raw.githubusercontent.com/jaws316/Bash_Scripts/main/
+wget https://raw.githubusercontent.com/jaws316/Bash_Scripts/main/sr
+wget https://raw.githubusercontent.com/jaws316/Bash_Scripts/main/sh
 chmod 777 *
 cd
 echo "Bin Done"
