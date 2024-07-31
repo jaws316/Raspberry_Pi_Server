@@ -26,6 +26,8 @@ dpkg -l | grep -qw sshfs || sudo apt install -yyq sshfs
 dpkg -l | grep -qw speedtest-cli || sudo apt install -yyq speedtest-cli
 dpkg -l | grep -qw neofetch || sudo apt install -yyq neofetch
 dpkg -l | grep -qw dnsutils || sudo apt install -yyq dnsutils
+dpkg -l | grep -qw plocate || sudo apt install -yyq plocate
+sudo updatedb
 echo "Programs Insealled"
 echo ""
 wget https://raw.githubusercontent.com/jaws316/Raspberry_Pi_Server/main/nf
