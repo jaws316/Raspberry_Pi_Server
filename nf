@@ -4,4 +4,5 @@ wget https://raw.githubusercontent.com/jaws316/Raspberry_Pi_Server/main/neofetch
 cp config.conf config.conf.bk
 mv neofetch-config.conf config.conf
 cd
+mv config.conf .config/neofetch/config.conf
 rm nf
