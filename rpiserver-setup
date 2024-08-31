@@ -27,6 +27,7 @@ dpkg -l | grep -qw speedtest-cli || sudo apt install -yyq speedtest-cli
 dpkg -l | grep -qw neofetch || sudo apt install -yyq neofetch
 dpkg -l | grep -qw dnsutils || sudo apt install -yyq dnsutils
 dpkg -l | grep -qw plocate || sudo apt install -yyq plocate
+dpkg -l | grep -qw net-tools || sudo apt install -yyq net-tools
 sudo updatedb
 echo "Programs Insealled"
 echo ""
