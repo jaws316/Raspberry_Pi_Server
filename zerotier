@@ -2,4 +2,4 @@
 dpkg -l | grep -qw gnupg || sudo apt install -yyq gnupg
 dpkg -l | grep -qw apt-transport-https || sudo apt install -yyq apt-transport-https
 curl -s https://install.zerotier.com | sudo bash
-sudo zerotier-cli join e5cd7a9e1cff976e
+#sudo zerotier-cli join e5cd7a9e1cff976e
